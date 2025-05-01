@@ -25,3 +25,23 @@ This project includes:
 
 ```bash
 go run Server/main.go
+```
+
+Then, either run the Client/main.go or execute:
+```bash
+go run Client/main.go
+```
+You'll be prompted for a username, then connected to the chat.
+
+## 🌐 Remote Usage with ngrok
+To expose your server to the internet:
+
+```bash
+ngrok http 8080
+```
+
+Then update the client URL in Client/main.go to:
+```bash
+websocket.DefaultDialer.Dial("wss://your-ngrok-url.ngrok.io/chat", nil)
+```
+Now others can connect using your public ngrok link.
