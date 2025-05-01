@@ -21,6 +21,9 @@ This project includes:
 
 ## 🚀 How to Use
 
+Firstly, install Go:
+https://go.dev/doc/install
+
 ### 🖥️ Run the Server
 
 ```bash
