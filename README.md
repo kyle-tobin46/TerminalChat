@@ -1,4 +1,4 @@
-# TerminalChat 🖥️💬
+# TerminalChat 
 
 A lightweight real-time terminal-based chat application built in Go using WebSockets.
 
@@ -9,7 +9,7 @@ This project includes:
 
 ---
 
-## 📦 Features
+## Features
 
 - Real-time message broadcasting via WebSockets
 - Simple terminal interface for chatting
@@ -19,12 +19,12 @@ This project includes:
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 Firstly, install Go:
 https://go.dev/doc/install
 
-### 🖥️ Run the Server
+### Run the Server
 
 ```bash
 go run Server/main.go
@@ -36,7 +36,7 @@ go run Client/main.go
 ```
 You'll be prompted for a username, then connected to the chat.
 
-## 🌐 Remote Usage with ngrok
+## Remote Usage with ngrok
 To expose your server to the internet:
 
 ```bash
